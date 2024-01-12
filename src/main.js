@@ -1,3 +1,7 @@
+// unocss
+import '@unocss/reset/normalize.css'
+import 'virtual:uno.css'
+
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
