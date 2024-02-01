@@ -1,0 +1,31 @@
+.el-message {
+  min-width: auto !important;
+  padding: 9px 12px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: all;
+  border: none;
+
+  .el-message__icon {
+    vertical-align: text-bottom;
+    margin-inline-end: 8px;
+    font-size: 16px;
+  }
+
+  .el-message-icon--info {
+    color: hsl(var(--primary));
+  }
+
+  .el-message__content {
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &.el-message-loading {
+    .i-icon {
+      color: hsl(var(--primary));
+    }
+  }
+}
