@@ -41,9 +41,8 @@ export const RESUME_DATA = {
       description: () => (
         <ul>
           <li>负责和林国际物流信息管理系统需求评审及开发落地工作，包括任务拆分、人员分配、工作排期</li>
-          <li>负责项目核心代码的实现与优化、代码质量审查制定代码规范</li>
-          <li>担任核心主程，负责主要功能模块实现，公共组件封装</li>
-          <li>担任核心主程，负责主要功能模块实现，公共组件封装</li>
+          <li>负责项目核心代码的实现与优化、代码质量审查、制定代码规范</li>
+          <li>编写公共组件库，提升团队开发效率，开发效率提升20%</li>
         </ul>
       ),
     },
@@ -103,7 +102,7 @@ export const RESUME_DATA = {
         'vue3',
         'pinia',
         'vueuse',
-        'vite4',
+        'vite5',
         'element-plus',
         'unocss',
         'vant',
