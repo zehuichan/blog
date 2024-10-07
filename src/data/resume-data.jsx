@@ -2,9 +2,13 @@ export const RESUME_DATA = {
   name: '陈泽辉',
   initials: 'chan_',
   location: '广州',
-  about: '高级前端-广州高鼎信息科技有限公司',
+  about: '高级前端-广东骅夏供应链管理有限公司',
   summary: () => (
-    <div>组件库 element-components、vant-components 作者，重度极客，致力于代码的整体结构规范及优化，平时爱好跑步、游泳、codeing、源码阅读</div>
+    <>
+      <p>开源组件库 element-components、vant-components 作者</p>
+      <p>能从0到1搭建项目，熟悉 vue2、vue3、taro(vue3)、uniapp(vue2/3) 开发模式</p>
+      <p>重度极客，致力于代码的整体结构规范及优化，平时爱好跑步、游泳、codeing、源码阅读</p>
+    </>
   ),
   avatarUrl: '/avatar.png',
   personalWebsiteUrl: 'https://github.com/zehuichan',
@@ -29,7 +33,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: '广州高鼎信息科技有限公司',
+      company: '广东骅夏供应链管理有限公司',
       badges: () => (
         <>
           <el-tag>全职</el-tag>
@@ -40,9 +44,10 @@ export const RESUME_DATA = {
       end: '至今',
       description: () => (
         <ul>
+          <li>负责公司前端架构搭建、前端框架与工具的设计开发</li>
           <li>负责和林国际物流信息管理系统需求评审及开发落地工作，包括任务拆分、人员分配、工作排期</li>
           <li>负责项目核心代码的实现与优化、代码质量审查、制定代码规范</li>
-          <li>编写公共组件库，提升团队开发效率，开发效率提升20%</li>
+          <li>主导并编写通用业务组件库，提升团队开发效率，开发效率提升30%</li>
         </ul>
       ),
     },
@@ -79,7 +84,7 @@ export const RESUME_DATA = {
         <ul>
           <li>主导并设计、维护公司通用业务组件库，支持 npm 私有化发布，加快开发效率</li>
           <li>参与需求评审会议与产品沟通需求合理性，及时提出疑问点及优化点</li>
-          <li>责前端团队的任务拆解、人员分配，主要功能模块实现，公共组件抽离</li>
+          <li>负责前端团队的任务拆解、人员分配，主要功能模块实现，公共组件抽离</li>
           <li>配合运维搭建基于Gitlab、Jenkins的持续集成(CI\CD)流程</li>
         </ul>
       ),

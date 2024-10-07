@@ -9,7 +9,7 @@
           </p>
           <p class="max-w-md items-center text-pretty text-sm text-muted-foreground">
             <span class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline">
-            8年前端，本科
+            9年前端，本科
             </span>
           </p>
           <div class="flex pt-1 text-sm text-muted-foreground print:hidden">
